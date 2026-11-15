@@ -78,6 +78,7 @@ control centre is kept for what it does best: arranging your cards and tiles.
 | **Framework** | LSPosed with libxposed API 101 or newer |
 | **Scope** | System UI · System Framework |
 | **Tested on** | Galaxy S23 (SM-S911B) |
+| **Languages** | 22 — English, Português, Español, Français, Deutsch, Italiano, Русский, Українська, Polski, Čeština, Nederlands, Svenska, Türkçe, Indonesia, العربية, हिन्दी, 日本語, 한국어, 简体中文, 繁體中文, Tiếng Việt, ไทย |
 
 ## Install
 
