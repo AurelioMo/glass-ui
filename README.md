@@ -151,7 +151,7 @@ replaces the same panel.
 <summary><b>Reporting a bug</b></summary>
 
 Open an issue with the Glass UI version, your device, One UI and LSPosed versions, and a
-short log: `adb logcat | grep -E "ColorCC|GlassPanel|LSPosed"`. Please don't post
+short log: `adb logcat | grep -E "LSPosed"`. Please don't post
 screenshots with personal notifications, accounts or serial numbers.
 </details>
 
