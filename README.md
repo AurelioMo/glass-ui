@@ -136,7 +136,7 @@ keeps the stock panel. Remove the cause (usually another module hooking the same
 then re-enable it as root and restart SystemUI:
 
 ```sh
-su -c rm /data/user_de/0/com.android.systemui/files/colorcc_crashes
+su -c rm /data/user_de/0/com.android.systemui/files/glassui_crashes
 ```
 </details>
 
