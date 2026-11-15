@@ -157,7 +157,7 @@ screenshots with personal notifications, accounts or serial numbers.
 
 ## Thanks
 
-- **jfo5** (Discord) — bug hunting and testing. Many of the fixes in Glass UI came from his reports.
+- **jfo5** (Discord) — bug hunting and testing. Many of the fixes in Glass UI came from their reports.
 
 <br>
 
