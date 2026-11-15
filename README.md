@@ -155,6 +155,10 @@ short log: `adb logcat | grep -E "LSPosed"`. Please don't post
 screenshots with personal notifications, accounts or serial numbers.
 </details>
 
+## Thanks
+
+- **jfo5** (Discord) — bug hunting and testing. Many of the fixes in Glass UI came from his reports.
+
 <br>
 
 <div align="center">
