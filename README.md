@@ -21,8 +21,9 @@ Control centre, notifications and volume panel — one look, one palette, one ap
 
 Glass UI redraws the parts of One UI you touch all day with the same liquid glass:
 clear surfaces that bend the wallpaper behind them, live blur, thin bright edges and
-spring motion. It runs as an LSPosed module inside System UI — nothing on the system
-partition is changed, and turning the module off brings stock One UI straight back.
+spring motion — from the control centre and notifications to the volume panel, home-screen
+widgets and folders. It runs as an LSPosed module — nothing on the system partition is
+changed, and turning the module off brings stock One UI straight back.
 
 ## Highlights
 
@@ -44,6 +45,7 @@ partition is changed, and turning the module off brings stock One UI straight ba
 - Cards in the exact glass of the control centre
 - The wallpaper refracts through every card
 - Clean swipe-to-dismiss — Samsung's own card blur is switched off underneath
+- Same background blur as the control centre from the very first pull
 - One switch to go back to stock cards
 
 </td>
@@ -58,6 +60,17 @@ partition is changed, and turning the module off brings stock One UI straight ba
 
 </td>
 </tr>
+<tr>
+<td colspan="3" valign="top">
+
+### Home screen
+- Widgets in the exact glass of the control centre, over a live blur of the wallpaper — photo and gallery widgets keep their look
+- Small folders, large 2×2 folders and open folders in the same glass
+- Lock screen and AOD widgets are left untouched
+- Separate switches for glass widgets and glass folders
+
+</td>
+</tr>
 </table>
 
 ## One app for everything
@@ -65,7 +78,8 @@ partition is changed, and turning the module off brings stock One UI straight ba
 <img src="docs/banner-app.png" alt="The Glass UI app" width="100%">
 
 Every option lives in the Glass UI app and applies live — glass style, tint, edge shine,
-blur, tile rows, tile names, notification glass and every volume panel setting. The status
+blur, tile rows, tile names, notification glass, home-screen widgets and folders, and every
+volume panel setting. The status
 card shows whether the module is running and restarts SystemUI for you. The pencil in the
 control centre is kept for what it does best: arranging your cards and tiles.
 
@@ -76,14 +90,14 @@ control centre is kept for what it does best: arranging your cards and tiles.
 | **System** | Samsung One UI 9 (Android 17) |
 | **Root** | Required |
 | **Framework** | LSPosed with libxposed API 101 or newer |
-| **Scope** | System UI · System Framework |
+| **Scope** | System UI · System Framework · One UI Home |
 | **Tested on** | Galaxy S23 (SM-S911B) |
 | **Languages** | 22 — English, Português, Español, Français, Deutsch, Italiano, Русский, Українська, Polski, Čeština, Nederlands, Svenska, Türkçe, Indonesia, العربية, हिन्दी, 日本語, 한국어, 简体中文, 繁體中文, Tiếng Việt, ไทย |
 
 ## Install
 
 1. Download `GlassUI-*.apk` from the **[latest release](https://github.com/AurelioMo/glass-ui/releases/latest)** and install it.
-2. In LSPosed, enable **Glass UI** for **System UI** and **System Framework**.
+2. In LSPosed, enable **Glass UI** for **System UI**, **System Framework** and **One UI Home**.
 3. Reboot once.
 4. Open Glass UI — the status card should read **Active in SystemUI**.
 
@@ -103,8 +117,15 @@ Restart SystemUI afterwards to load the new module code.
 <details>
 <summary><b>The app says "Waiting for SystemUI"</b></summary>
 
-Check that both scopes (System UI and System Framework) are enabled in LSPosed and reboot.
+Check that the scopes (System UI and System Framework) are enabled in LSPosed and reboot.
 After updates, restarting SystemUI from the app is enough.
+</details>
+
+<details>
+<summary><b>Widgets or folders are not glass</b></summary>
+
+Enable **One UI Home** in Glass UI's LSPosed scope, then switch **Glass widgets** or
+**Glass folders** off and on in the app — it restarts the home screen for you.
 </details>
 
 <details>
