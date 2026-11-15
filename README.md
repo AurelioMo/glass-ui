@@ -89,9 +89,6 @@ control centre is kept for what it does best: arranging your cards and tiles.
 Pull down on the **left half** of the status bar for notifications and on the **right half**
 for the control centre.
 
-> If you used ColorCC or Glass Panel before, disable and uninstall them first —
-> Glass UI already includes both.
-
 ## Updates
 
 Glass UI checks this repository for new releases whenever you open it, and you can check
@@ -124,7 +121,7 @@ su -c rm /data/user_de/0/com.android.systemui/files/colorcc_crashes
 <details>
 <summary><b>I see two volume panels or two control centres</b></summary>
 
-Another module is still active. Disable ColorCC, Glass Panel or any other module that
+Another module is still active. Disable other module that
 replaces the same panel.
 </details>
 
@@ -140,6 +137,6 @@ screenshots with personal notifications, accounts or serial numbers.
 
 <div align="center">
 
-Made by **[Aurélio](https://github.com/AurelioMo)** · Built on the ColorCC control centre and the Glass Panel fork, used with permission.
+Made by **[Aurélio](https://github.com/AurelioMo)**
 
 </div>
