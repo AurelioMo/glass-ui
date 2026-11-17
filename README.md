@@ -69,6 +69,12 @@ changed, and turning the module off brings stock One UI straight back.
 - Lock screen and AOD widgets are left untouched
 - Separate switches for glass widgets and glass folders
 
+
+### Dynamic Island
+- An island around the camera for music, calls, timers, downloads and notifications, from **[Dynamic Island](https://github.com/sampple-korea/dynamicisland)**
+- All of its settings live in the Glass UI app, in the same look as the rest
+- Off by default — turn it on in the app
+
 </td>
 </tr>
 </table>
@@ -158,6 +164,7 @@ screenshots with personal notifications, accounts or serial numbers.
 ## Thanks
 
 - **jfo5** (Discord) — bug hunting and testing. Many of the fixes in Glass UI came from their reports.
+- **[sampple-korea](https://github.com/sampple-korea)** — [Dynamic Island](https://github.com/sampple-korea/dynamicisland) (MIT License, © 2026 sampple-korea), included in Glass UI.
 
 <br>
 
