@@ -25,6 +25,19 @@ spring motion — from the control centre and notifications to the volume panel,
 widgets and folders. It runs as an LSPosed module — nothing on the system partition is
 changed, and turning the module off brings stock One UI straight back.
 
+## New in 3.0 · Prisma Aurora
+
+The 3.x family is called **Prisma**. 3.0.0 is **Prisma Aurora**, with motion and light taken from ColorOS 17:
+
+- **Haptics and sound** on every Glass UI interaction, following Android's vibration and touch-sound settings
+- **Living Flow** — a soft light follows your finger on tiles and sliders
+- **Album art colour** shared by the control centre player, the island and the shade media card
+- **Spring cascade** when the shade and control centre open, layered overscroll and a curved edge glow on sliders
+- **Notification stacks** for collapsed groups
+- **Per-app volume**, **wide connection tiles** and **resizable folders** by dragging
+- **Charging ring** on the Dynamic Island in Samsung's charging colours
+- One light/dark glass palette across every surface and glass style
+
 ## Highlights
 
 <table>
@@ -37,6 +50,8 @@ changed, and turning the module off brings stock One UI straight back.
 - Live blur, edge shine and tilt highlights
 - Per-tile accents or your Material You colour
 - Move and resize everything in place
+- Wide Wi‑Fi, Bluetooth and Mobile data tiles with network names
+- Living Flow light and haptics on every tile and slider
 
 </td>
 <td width="33%" valign="top">
@@ -46,6 +61,7 @@ changed, and turning the module off brings stock One UI straight back.
 - The wallpaper refracts through every card
 - Clean swipe-to-dismiss — Samsung's own card blur is switched off underneath
 - Same background blur as the control centre from the very first pull
+- Stacked cards for collapsed groups
 - One switch to go back to stock cards
 
 </td>
@@ -57,6 +73,7 @@ changed, and turning the module off brings stock One UI straight back.
 - Ringer mode and Do Not Disturb at hand
 - Blur, opacity, side and height adjustable
 - Optional: volume keys always for the system
+- Per-app volume for up to four apps playing sound
 
 </td>
 </tr>
@@ -66,6 +83,8 @@ changed, and turning the module off brings stock One UI straight back.
 ### Home screen
 - Widgets in the exact glass of the control centre, over a live blur of the wallpaper — photo and gallery widgets keep their look
 - Small folders, large 2×2 folders and open folders in the same glass
+- Resize any folder by dragging, with a ripple on the icons around it
+- Pinch out on the home screen to clear the badges on that page
 - Lock screen and AOD widgets are left untouched
 - Separate switches for glass widgets and glass folders
 
@@ -108,7 +127,8 @@ control centre is kept for what it does best: arranging your cards and tiles.
 4. Open Glass UI — the status card should read **Active in SystemUI**.
 
 Pull down on the **left half** of the status bar for notifications and on the **right half**
-for the control centre.
+for the control centre — on the lock screen too. You can move the split in the app
+(**Control centre → Where a pull opens the control centre**, 20–80%).
 
 ## Updates
 
